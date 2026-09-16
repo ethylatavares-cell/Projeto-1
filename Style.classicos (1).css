@@ -1,0 +1,218 @@
+*{
+    margin: 0.01;
+    padding: 1;
+    box-sizing: border-box;
+    text-decoration: solid;
+    scroll-behavior: smooth;
+}
+
+body{
+font-family:sans-serif;
+color: #685453;
+line-height: 1.3;
+background-color: #cdccf1;
+
+}
+
+header{
+background-color: rgba(17, 30, 68, 0.233);
+color: #451e7480;
+text-align: center;
+padding: 10px 20px;
+display: flex;
+gap: 10px;
+border-bottom: 2px solid #333;
+}
+
+.textin{
+    font-size: 1.26rem;
+    line-height: 1.6;
+    list-style: none;
+    height: min-content;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-decoration: solid;
+    font-weight: bold;
+    color: #795b9b;
+}
+h2{
+    font-size: 2.6rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-emphasis: none;
+    text-overflow: ellipsis;
+
+}
+ h1{ 
+    text-align: left center;
+    margin: auto;
+}
+
+    
+
+.lua{
+    width: 290px;
+    height: auto;
+    object-fit: cover;
+}
+.casa.cogumelo{
+    width: 90px;
+    height: auto;
+    object-fit: cover;
+
+}
+.peninha{
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 700px;
+    top: 345px;
+    left: -30px;
+    position: absolute;
+}
+.peninha2{
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 700px;
+    top: 345px;
+    left: 245px;
+    position: absolute;
+}
+
+header h1{
+font-size: 42px;
+margin-bottom: 12px;
+}
+.atalho{
+    font-size: 20px;
+
+}
+
+
+/*menu de navegação*/
+nav ul{
+list-style: none;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 34px;
+margin-top: 40px;
+padding: 0;
+}
+
+nav a{
+color: #E6EDF0;
+text-decoration: none;
+font-weight: 600;
+padding-bottom: 4px;
+border-bottom: 2px solid transparent;
+transition: all 0.3s ease;
+}
+nav a:hover{
+border-bottom: 2px solid #e6c4bc;
+text-decoration: underline;
+text-underline-offset: 6px;
+}
+
+H1{
+    color: #f0a999;
+    text-decoration: underline wavy #FFB7B2;
+    text-underline-offset: 6px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 58px;
+    font-family: sans-serif bolder;
+}
+h1.titulo{
+    text-align: center;
+    margin: 10px;
+    height: 10px;
+    width: 50%;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-left: 240px;
+
+}
+
+/*destacação de onde o usuário está*/
+nav a.ativo{
+    border-bottom: 2px solid;
+}
+
+
+/*conteúdo principal*/
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #dde5fc;
+    border-radius: 30px;
+    padding: 35px;
+    border: 4px dashed #e2d5f7;
+    box-shadow: 0PX 12px 28px rgba(253, 190, 190, 0.247);
+}
+
+section{
+    background-color: #d1e2f8b6;
+    color: #9b75c7;
+    font-family: Comic Sans MS', 'Nunito', sans-serif';
+    font-weight: bold;
+    font-size: 16px;
+    
+    padding: 12px 24px;
+    border: 3px solid #c2c6ffda;    /* Borda um tom mais escuro para dar relevo */
+    border-radius: 50px;          /* Cantos totalmente arredondados */
+    cursor: pointer;
+    
+    box-shadow: 0px 4px 0px #7e9fbb; /* Sombra sólida que imita desenho animado */
+    transition: all 0.2s ease;
+  }
+
+section h2{
+    color: #8958b198;
+    margin-bottom: 12px;
+    border-bottom: 2px solid;
+    padding-bottom: 8px;
+
+}
+section ul{
+    padding-left: 20px;
+}
+
+h4{
+
+        font-size: 18px;             /* Tamanho ideal: maior que o texto, menor que o h2 */
+        color: #836cce;              /* O azul elétrico que conversamos, ou outra cor viva */
+        font-weight: 700;            /* Deixa a letra mais gordinha e visível */
+        margin-top: 20px;            /* Afasta o subtítulo do parágrafo de cima */
+        margin-bottom: 8px;          /* Deixa ele pertinho do texto de baixo que ele explica */
+        text-transform: uppercase;   /* Opcional: Deixa o subtítulo em LETRAS MAIÚSCULAS */
+        letter-spacing: 1px;         /* Espaçamento sutil entre as letras */
+    font-family: sans-serif bold;
+    }
+p.uiui{
+color: #9b75c7;
+}
+p{
+color: #9b74c4;
+text-decoration: solid;
+font-family:sans-serif bold;
+}
+h3{
+    color: #705daf;
+    font-weight: 650;
+    margin-top: 20PX;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-family: sans-serif;
+}
+
+
+
